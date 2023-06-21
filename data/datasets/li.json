@@ -1,0 +1,35 @@
+{
+    "table": {
+        "caption": "Datasets used in LI projects focused on European (PT) and Brazilian (BR) Portuguese.",
+        "rows": [
+            {
+                "Project Name": "Identification of Document Language is not yet a completely solved problem~\\cite{4052828}",
+                "Author": "Joaquim Ferreira da Silva",
+                "Year": 2006,
+                "PT Dataset": "Eurolex News from Publico Diário de Notícias Newspaper",
+                "BR Dataset": "Legal Documents from the General Secretariat of Brazilian Republic Presidency"
+            },
+            {
+                "Project Name": "Automatic Identification of Language Varieties: The Case of Portuguese~\\cite{zampieri2012automatic}",
+                "Author": "Marcos Zampieri",
+                "Year": 2012,
+                "PT Dataset": "News from Diário de Notícias",
+                "BR Dataset": "News from Folha de São Paulo"
+            },
+            {
+                "Project Name": "Smoothed n-gram based models for tweet language identification: A case study of the Brazilian and European Portuguese national varieties~\\cite{CASTRO20171160}",
+                "Author": "Dayvid W. Castro",
+                "Year": 2017,
+                "PT Dataset": "Portuguese Tweets published with a Portuguese IP address",
+                "BR Dataset": "Portuguese Tweets published with a Brazilian IP address"
+            },
+            {
+                "Project Name": "Language Identification in Web Pages~\\cite{10.1145/1066677.1066852}",
+                "Author": "Bruno Martins, Mário J. Silva",
+                "Year": 2005,
+                "PT Dataset": "Web Crawled Data",
+                "BR Dataset": "-"
+            }
+        ]
+    }
+}
