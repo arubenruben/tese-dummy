@@ -1,0 +1,28 @@
+name: Update README
+
+on:
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.10 
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt 
+
+      - name: Run Python script and capture output
+        id: run-script
+        run: |
+          python src/main.py > out/script_output.txt
+          echo "::set-output name=output::$(cat out/script_output.txt)"
