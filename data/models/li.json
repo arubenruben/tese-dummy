@@ -1,0 +1,43 @@
+{
+    "table": {
+        "caption": "Summary of the performance of LI models that focus on European (PT) and Brazilian (BR) Portuguese cases. Some test sets are defined by the authors(A.D).",
+        "rows": [
+            {
+                "Project Name": "Identification of Document Language is not yet a completely solved problem~\\cite{4052828}",
+                "Author": "Joaquim Ferreira Da Silva",
+                "Year": 2006,
+                "Test Set": "A.D",
+                "Methodology": "Quadratic Discrimination Score and character n-grams (from 2 to 8)",
+                "Results PT": "0.986 Precision",
+                "Results BR": "0.987 Precision"
+            },
+            {
+                "Project Name": "Automatic Identification of Language Varieties: The Case of Portuguese~\\cite{zampieri2012automatic}",
+                "Author": "Marcos Zampieri",
+                "Year": 2012,
+                "Test Set": "A.D",
+                "Methodology": "Log-Likelihood and character 4-grams",
+                "Results PT": "0.998 Accuracy",
+                "Results BR": "0.998 Accuracy"
+            },
+            {
+                "Project Name": "Smoothed n-gram based models for tweet language identification: A case study of the Brazilian and European Portuguese national varieties~\\cite{CASTRO20171160}",
+                "Author": "Dayvid W. Castro",
+                "Year": 2017,
+                "Test Set": "A.D",
+                "Methodology": "Naïve Bayes ensemble model combined with TF-IDF",
+                "Results PT": "0.934 Precision",
+                "Results BR": "0.912 Precision"
+            },
+            {
+                "Project Name": "Language Identification in Web Pages~\\cite{10.1145/1066677.1066852}",
+                "Author": "Bruno Martins",
+                "Year": 2005,
+                "Test Set": "A.D",
+                "Methodology": "8 n-grams",
+                "Results PT": "0.920 Precision",
+                "Results BR": "0.920 Precision"
+            }
+        ]
+    }
+}
