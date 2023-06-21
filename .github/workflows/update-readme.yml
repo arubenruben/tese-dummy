@@ -14,7 +14,7 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: '3.10'       
-          
+
       - name: Install dependencies
         run: pip install -r requirements.txt 
 
@@ -23,3 +23,10 @@ jobs:
         run: |
           python src/main.py > out/script_output.txt
           echo "::set-output name=output::$(cat out/script_output.txt)"
+
+      - name: Update README
+        run: |
+          echo "# My Updated README" >> README.md
+          echo "${{ steps.run-script.outputs.output }}" >> README.md
+          git commit -am "Update README after pull request merge"
+          git push
