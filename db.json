@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Diabetes",
+        "description": "Diabetes mellitus refers to a group of diseases that affect how the body uses blood sugar (glucose). Glucose is an important source of energy for the cells that make up the muscles and tissues. It's also the brain's main source of fuel.",
+        "treatment": "Insuline"
+    },
+    {
+        "name": "Cirrhosis",
+        "description": "Cirrhosis is a late stage of scarring (fibrosis) of the liver caused by many forms of liver diseases and conditions, such as hepatitis and chronic alcoholism. Each time your liver is injured — whether by disease, excessive alcohol consumption or another cause — it tries to repair itself.",
+        "treatment": "Liver transplant"
+    }
+]
